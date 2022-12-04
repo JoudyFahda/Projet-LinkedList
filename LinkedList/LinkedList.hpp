@@ -11,7 +11,6 @@ public:
     ~LinkedList();
 
     bool operator==(const LinkedList& l)const{}
-
     int getSize() const;
     ostream& toOstream(ostream& out) const;
 
