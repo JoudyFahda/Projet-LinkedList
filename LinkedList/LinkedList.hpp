@@ -10,10 +10,12 @@ public:
     LinkedList& operator=(const LinkedList&);
     ~LinkedList();
 
+    short & operator[] (int index);
+    const short operator[] (int index) const;
     bool operator==(const LinkedList& l)const{}
+    void push_front(short);
     int getSize() const;
     ostream& toOstream(ostream& out) const;
-
 private:
     struct ListNode {
         ListNode(short val, ListNode* next = nullptr)
@@ -31,4 +33,4 @@ private:
 };
 
 // external overloading:
-ostream&operator<<(ostream&os, LinkedList& l){};
+ostream&operator<<(ostream&os, LinkedList& l){}

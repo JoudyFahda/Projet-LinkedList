@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/hp/OneDrive/Desktop/ProjetLinkedList/build",
+  "command": "C:\\MinGW-master\\MinGW-master\\MinGW\\bin\\g++.exe  @CMakeFiles/LinkedListProject.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\LinkedListProject.dir\\main.cpp.obj -c C:\\Users\\hp\\OneDrive\\Desktop\\ProjetLinkedList\\main.cpp",
+  "file": "C:/Users/hp/OneDrive/Desktop/ProjetLinkedList/main.cpp"
+},
+{
+  "directory": "C:/Users/hp/OneDrive/Desktop/ProjetLinkedList/build/LinkedList",
+  "command": "C:\\MinGW-master\\MinGW-master\\MinGW\\bin\\g++.exe  @CMakeFiles/LinkedList.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\LinkedList.dir\\LinkedList.cpp.obj -c C:\\Users\\hp\\OneDrive\\Desktop\\ProjetLinkedList\\LinkedList\\LinkedList.cpp",
+  "file": "C:/Users/hp/OneDrive/Desktop/ProjetLinkedList/LinkedList/LinkedList.cpp"
+}
+]

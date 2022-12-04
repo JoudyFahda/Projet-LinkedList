@@ -94,3 +94,27 @@ bool LinkedList::operator==(const LinkedList& liste)const{
     }
     return true;
 }
+
+//Part 2:
+
+//operateur []
+short & LinkedList :: operator[] (int index){
+    if (index>=size || index <0){
+        cout << "L'index donne ne doit ni etre plus grand que la taille actuelle, ni negatif." << endl;
+    }
+
+    ListNode* node=head;
+    for (size_t i=0; i<index; i++){
+        node =node -> next;
+    }
+    return node -> val;
+
+}
+
+//pour juste retourner la valeur :
+const short LinkedList :: operator[] (int index) const{
+    return (*this)[index];
+}
+//end of part2
+
+

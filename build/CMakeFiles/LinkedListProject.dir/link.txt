@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\LinkedListProject.dir/objects.a
+C:\MinGW-master\MinGW-master\MinGW\bin\ar.exe qc CMakeFiles\LinkedListProject.dir/objects.a @CMakeFiles\LinkedListProject.dir\objects1
+C:\MinGW-master\MinGW-master\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\LinkedListProject.dir/objects.a -Wl,--no-whole-archive -o LinkedListProject.exe -Wl,--out-implib,libLinkedListProject.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\LinkedListProject.dir\linkLibs.rsp
