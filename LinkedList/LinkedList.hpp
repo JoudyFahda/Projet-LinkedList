@@ -36,4 +36,4 @@ private:
 };
 
 // external overloading:
-ostream&operator<<(ostream&os, LinkedList& l){};
+ostream&operator<<(ostream&os, LinkedList& l){}

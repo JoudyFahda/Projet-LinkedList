@@ -30,4 +30,4 @@ There are three main types of a linked list:
 - Circular Linked List
 But,we will be focusing on implementing a Simple Linked List.
 
-In order to get how to implement a simple linked list, we will create a “LinkedList” class that encapsulates a linked list used to store short integers.
+In order to get how to implement a simple linked list, we will create a “LinkedList” class that encapsulates a linked list used to store short integers.
