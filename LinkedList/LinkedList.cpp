@@ -118,3 +118,28 @@ const short LinkedList :: operator[] (int index) const{
 //end of part2
 
 
+//Part3:
+
+// push_back:
+void LinkedList :: push_back(short data) {
+    if (head == NULL) {
+        head = new ListNode(data);
+        return;
+    }
+
+    ListNode* current = head;
+    while (current->next != nullptr) {
+        current = current->next;
+    }
+    current->next = new ListNode(data);
+}
+
+//push_front:
+
+void LinkedList :: push_front(short data) {
+    ListNode* newHead = new ListNode(data);
+    newHead->next = head;
+    head = newHead;
+}
+
+//end of part3
